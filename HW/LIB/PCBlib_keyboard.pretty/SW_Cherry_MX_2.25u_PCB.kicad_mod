@@ -16,9 +16,9 @@
 		)
 	)
 	(property "Value" "SW_Cherry_MX_2.25u_PCB"
-		(at -0.5 -16.5 0)
+		(at -20 -19.5 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "0587cc18-0f4c-46e2-b588-ed648786adf7")
 		(effects
 			(font
@@ -140,6 +140,26 @@
 		(uuid "b57c1ce3-56d5-4846-8f31-4ec03f5f6889")
 	)
 	(fp_line
+		(start -22 -21)
+		(end 20.8625 -21)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17230cae-7b66-4868-a58f-00e47b117112")
+	)
+	(fp_line
+		(start -22 -1.95)
+		(end -22 -21)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fac49213-0edd-4d2a-b4d6-9a8aec1758ab")
+	)
+	(fp_line
 		(start -7.55375 -18.46)
 		(end 6.41625 -18.46)
 		(stroke
@@ -180,33 +200,13 @@
 		(uuid "d6eae6fc-ff29-4e15-bbc5-3d371368323b")
 	)
 	(fp_line
-		(start -22 -21)
-		(end 20.8625 -21)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "17230cae-7b66-4868-a58f-00e47b117112")
-	)
-	(fp_line
-		(start -22 -1.95)
-		(end -22 -21)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "fac49213-0edd-4d2a-b4d6-9a8aec1758ab")
-	)
-	(fp_line
 		(start 20.8625 -21)
 		(end 20.8625 -1.95)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "1b001825-dcbe-4ef6-a2c0-335318d92919")
 	)
 	(fp_line
@@ -216,7 +216,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "e9681427-f43d-4cfc-b4dc-0954b0b56c5b")
 	)
 	(fp_line

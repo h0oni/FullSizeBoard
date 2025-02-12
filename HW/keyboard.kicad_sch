@@ -9421,7 +9421,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b579121-dbb7-42dc-9842-16c11db2a805")
 		(property "Reference" "MX80"
 			(at 135.89 139.7 0)
